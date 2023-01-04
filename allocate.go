@@ -486,7 +486,7 @@ func Headless(a *ExecAllocator) {
 // - https://github.com/puppeteer/puppeteer/pull/2908
 // - https://github.com/puppeteer/puppeteer/pull/4523
 // But according to this reported issue, it's still required in some cases:
-// - https://github.com/chromedp/chromedp/issues/904
+// - https://github.com/tavsec/chromedp/issues/904
 func DisableGPU(a *ExecAllocator) {
 	Flag("disable-gpu", true)(a)
 }

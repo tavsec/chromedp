@@ -348,7 +348,7 @@ func TestNavigateWhileLoading(t *testing.T) {
 			//
 			// Otherwise, it's possible that this event is emitted after the
 			// second navigate, and the second navigate will handle the wrong
-			// events. See https://github.com/chromedp/chromedp/issues/1080.
+			// events. See https://github.com/tavsec/chromedp/issues/1080.
 			//
 			// The implementation of responseAction() is buggy in this case.
 			// But it's hard to fix it since there is not way to tell whether

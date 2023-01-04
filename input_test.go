@@ -8,7 +8,7 @@ import (
 
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/cdproto/input"
-	"github.com/chromedp/chromedp/kb"
+	"github.com/tavsec/chromedp/kb"
 )
 
 // inViewportJS is a javascript snippet that will get the specified node
