@@ -1,4 +1,4 @@
-module github.com/chromedp/chromedp
+module github.com/tavsec/chromedp
 
 go 1.18
 
